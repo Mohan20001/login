@@ -1,0 +1,101 @@
+body{
+    background: rgb(16, 131, 238);
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+}
+.wrapper{
+    background:#fff;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(66, 65, 65);
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 1rem 2rem;
+    border:1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button{
+    display: block;
+    color:#fff;
+    border-radius:4px;
+    border:none;
+    padding:10px 20px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    background:rgb(16, 131, 238);
+    letter-spacing: 1px;
+}
+a{
+    /* display: block; */
+    text-align: center;
+    font-size: 12px;
+}
+.form2{
+    display: none;
+}
+.btn-b{
+    background: rgb(16, 131, 238) !important;
+}
+.links{
+    text-align: center;
+}
+.terms{
+    background: rgba(12, 12, 12, 0.795);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    display:grid;
+    place-items: center;
+    overflow:hidden;
+    display: none;
+}
+
+.brief{
+    background: #fff;
+    padding: 30px;
+    width:70vw;
+    max-width: 30rem;
+    font-size: 17px ;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-justify: newspaper;
+    overflow-y: scroll;
+    line-height: 30px;
+}
+
+#exit{
+    position: absolute;
+    right:10px ;
+    top:10px;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
